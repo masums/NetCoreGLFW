@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreGlfw", "NetCoreGlfw\NetCoreGlfw.csproj", "{DA7E3071-5F46-4FDC-A539-56B11076912E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreGlfw.Test", "NetCoreGlfw.Test\NetCoreGlfw.Test.csproj", "{674408F5-EB1C-44B0-8767-82ED24C698D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7E3071-5F46-4FDC-A539-56B11076912E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7E3071-5F46-4FDC-A539-56B11076912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7E3071-5F46-4FDC-A539-56B11076912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7E3071-5F46-4FDC-A539-56B11076912E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674408F5-EB1C-44B0-8767-82ED24C698D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674408F5-EB1C-44B0-8767-82ED24C698D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674408F5-EB1C-44B0-8767-82ED24C698D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674408F5-EB1C-44B0-8767-82ED24C698D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFDA2F70-38E4-4757-AF2A-6EC44A8E6864}
+	EndGlobalSection
+EndGlobal

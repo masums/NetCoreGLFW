@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Md. Rashidul Hasan</Authors>
+    <Company>http://masums.com</Company>
+    <PackageId>NetCoreGLFW</PackageId>
+    <Description>Dotnet core wraper of GLFW</Description>
+    <Copyright>masums.com</Copyright>
+    <PackageProjectUrl>https://github.com/masums/NetCoreGLFW</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/masums/NetCoreGLFW</RepositoryUrl>
+    <PackageTags>DotNetCore, CSharp, GLFW, Graphics, 3D</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenGL.Net" Version="0.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Native\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Native\glfw3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
