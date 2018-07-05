@@ -1497,7 +1497,7 @@ namespace Glfw3
         /// <param name="window">The window whose callback to set.</param>
         /// <param name="callback">The new callback, or <c>null</c> to remove the currently set
         /// callback.</param>
-        public static void SetScrollCallback(Window window, CursorPosFunc callback) => glfwSetScrollCallback(window.Ptr, Marshal.GetFunctionPointerForDelegate(callback));
+        public static void SetScrollCallback(Window window, ScrollFunc callback) => glfwSetScrollCallback(window.Ptr, Marshal.GetFunctionPointerForDelegate(callback));
 
         [DllImport(kLibrary, CallingConvention = CallingConvention.Cdecl), SuppressUnmanagedCodeSecurity]
         static extern IntPtr glfwSetScrollCallback(IntPtr window, IntPtr callback);
