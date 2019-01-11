@@ -10,7 +10,7 @@ namespace Glfw3
     /// </summary>
     public static partial class Glfw
     {
-        const string kLibrary = "glfw3";
+        const string kLibrary = "Native/glfw3";
 
         /// <summary>
         /// Adds the specified native directory path to the Path environment variable to facilitate
